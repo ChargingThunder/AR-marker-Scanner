@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+        <title>AR-marker scanner</title>
+        <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+        <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.0.5/aframe/build/aframe-ar.js"></script>
+        <script type="module" src='main.js'></script>
+        <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three/build/three.module.js"
+            }
+        }</script>
+    </head>
+    <body style="margin:0px; overflow:hidden;">
+        <div hidden id="arjsDebugUIContainer"><div ><span></span></div><div>:false</span></div></div>
+    </body>
+</html>
